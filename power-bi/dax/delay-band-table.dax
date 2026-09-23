@@ -1,0 +1,14 @@
+Delay Bands =
+DATATABLE (
+    "DelayBand", STRING,
+    "SortOrder", INTEGER,
+    {
+        { "Current", 1 },
+        { "1 to 30 days", 2 },
+        { "31 to 60 days", 3 },
+        { "61 to 90 days", 4 },
+        { "Over 90 days", 5 }
+    }
+)
+
+// In Model view, sort DelayBand by SortOrder.
