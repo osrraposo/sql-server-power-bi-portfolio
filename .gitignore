@@ -1,0 +1,21 @@
+# Power BI
+*.pbix
+*.pbit
+
+# Credenciais e configurações locais
+.env
+.env.*
+*.key
+*.pem
+
+# Exportações e dados locais
+data/
+exports/
+*.bak
+*.bkp
+
+# Editores e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
