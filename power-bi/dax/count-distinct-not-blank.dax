@@ -1,0 +1,8 @@
+Distinct Records Without Blank =
+COUNTROWS (
+    FILTER (
+        VALUES ( 'FactTable'[BusinessKey] ),
+        NOT ISBLANK ( 'FactTable'[BusinessKey] )
+            && 'FactTable'[BusinessKey] <> ""
+    )
+)
